@@ -12,6 +12,9 @@ namespace CastleBridge.OnlineLibraries {
         public int CurrentSpeed;
         public RectanglePacket Rectangle;
         public PacketType PacketType;
+        public string Direction;
+        public string PlayerState;
+        public string CurrentLocation;
 
         public PlayerPacket() {
  
