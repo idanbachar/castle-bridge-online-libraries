@@ -19,6 +19,7 @@ namespace CastleBridge.OnlineLibraries {
         public bool IsAttackAnimationFinished;
         public bool CurrentCharacterIsDead;
         public bool IsHorseOwner;
+        public bool IsAllMapEntitiesLoaded;
 
         public PlayerPacket() {
  
