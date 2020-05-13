@@ -15,6 +15,10 @@ namespace CastleBridge.OnlineLibraries {
         public string Direction;
         public string PlayerState;
         public string CurrentLocation;
+        public int CurrentCharacterHp;
+        public bool IsAttackAnimationFinished;
+        public bool CurrentCharacterIsDead;
+        public bool IsHorseOwner;
 
         public PlayerPacket() {
  
