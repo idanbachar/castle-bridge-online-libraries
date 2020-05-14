@@ -13,6 +13,8 @@ namespace CastleBridge.OnlineLibraries {
         public string Name;
         public bool IsTouchable;
         public string CurrentLocation;
+        public bool IsActive;
+        public string Key;
         public MapEntityPacket() {
 
 
