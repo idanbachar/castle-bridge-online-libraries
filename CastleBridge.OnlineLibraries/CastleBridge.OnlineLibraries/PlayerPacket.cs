@@ -20,6 +20,8 @@ namespace CastleBridge.OnlineLibraries {
         public bool CurrentCharacterIsDead;
         public bool IsHorseOwner;
         public bool IsAllMapEntitiesLoaded;
+        public bool IsDiamondOwner;
+        public int CarryingDiamondsCount;
 
         public PlayerPacket() {
  
