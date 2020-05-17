@@ -21,6 +21,8 @@ namespace CastleBridge.OnlineLibraries {
 
             X = x;
             Y = y;
+            Width = 75;
+            Height = 75;
             TeamName = teamName;
             Key = key;
 
@@ -32,6 +34,8 @@ namespace CastleBridge.OnlineLibraries {
                     CurrentLocation = "Inside_Yellow_Castle";
                     break;
             }
+            Visible = true;
+            Owner = string.Empty;
         }
     }
 }
